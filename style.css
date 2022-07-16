@@ -39,6 +39,21 @@
   padding: 9px 19px;
   cursor: pointer;
 }
+.btn-form {
+  text-decoration: none;
+  display: inline-block;
+  background: linear-gradient(45deg, orangered, orange);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.btn-form:hover {
+  background: none;
+  border: 1px solid orange;
+  color: orange;
+  cursor: pointer;
+}
+
 body {
   font-family: "Poppins";
 }
@@ -91,6 +106,21 @@ body {
   box-shadow: 5px 5px 30px grey;
   padding: 20px 0;
   border-radius: 5px;
+}
+.form {
+  background-color: rgb(240, 235, 234);
+  padding: 20px 10px;
+  text-align: center;
+  margin: 20px 200px;
+}
+.form input {
+  width: 60%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
 }
 footer {
   width: 100%;
